@@ -11,3 +11,5 @@ karma.conf.cjs
 .nvmrc
 .husky
 pnpm-lock.yaml
+es2015
+es2020
