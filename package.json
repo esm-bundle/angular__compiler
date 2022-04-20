@@ -41,8 +41,8 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__compiler#readme",
   "devDependencies": {
-    "@angular/compiler": "13.3.3",
-    "@angular/compiler-cli": "13.3.3",
+    "@angular/compiler": "13.3.4",
+    "@angular/compiler-cli": "13.3.4",
     "@rollup/plugin-babel": "5.3.1",
     "concurrently": "7.1.0",
     "husky": "7.0.4",
