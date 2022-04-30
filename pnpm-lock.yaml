@@ -15,7 +15,7 @@ specifiers:
   release-it: 14.14.3
   release-it-plugin-esm-bundle: 2.1.0
   rimraf: 3.0.2
-  rollup: 2.71.0
+  rollup: 2.71.1
   rollup-plugin-terser: 7.0.2
   rxjs: 7.5.5
   typescript: 4.6.4
@@ -23,7 +23,7 @@ specifiers:
 devDependencies:
   '@angular/compiler': 13.3.5
   '@angular/compiler-cli': 13.3.5_b07c62e2cc9b87cabff59ee153cd6f69
-  '@rollup/plugin-babel': 5.3.1_rollup@2.71.0
+  '@rollup/plugin-babel': 5.3.1_rollup@2.71.1
   concurrently: 7.1.0
   husky: 7.0.4
   karma: 6.3.18
@@ -35,8 +35,8 @@ devDependencies:
   release-it: 14.14.3
   release-it-plugin-esm-bundle: 2.1.0
   rimraf: 3.0.2
-  rollup: 2.71.0
-  rollup-plugin-terser: 7.0.2_rollup@2.71.0
+  rollup: 2.71.1
+  rollup-plugin-terser: 7.0.2_rollup@2.71.1
   rxjs: 7.5.5
   typescript: 4.6.4
 
@@ -426,7 +426,7 @@ packages:
       '@octokit/openapi-types': 11.2.0
     dev: true
 
-  /@rollup/plugin-babel/5.3.1_rollup@2.71.0:
+  /@rollup/plugin-babel/5.3.1_rollup@2.71.1:
     resolution: {integrity: sha512-WFfdLWU/xVWKeRQnKmIAQULUI7Il0gZnBIH/ZFO069wYIfPu+8zrfp/KMW0atmELoRDq8FbiP3VCss9MhCut7Q==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
@@ -438,11 +438,11 @@ packages:
         optional: true
     dependencies:
       '@babel/helper-module-imports': 7.16.7
-      '@rollup/pluginutils': 3.1.0_rollup@2.71.0
-      rollup: 2.71.0
+      '@rollup/pluginutils': 3.1.0_rollup@2.71.1
+      rollup: 2.71.1
     dev: true
 
-  /@rollup/pluginutils/3.1.0_rollup@2.71.0:
+  /@rollup/pluginutils/3.1.0_rollup@2.71.1:
     resolution: {integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==}
     engines: {node: '>= 8.0.0'}
     peerDependencies:
@@ -451,7 +451,7 @@ packages:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
       picomatch: 2.2.2
-      rollup: 2.71.0
+      rollup: 2.71.1
     dev: true
 
   /@sindresorhus/is/0.14.0:
@@ -2931,20 +2931,20 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rollup-plugin-terser/7.0.2_rollup@2.71.0:
+  /rollup-plugin-terser/7.0.2_rollup@2.71.1:
     resolution: {integrity: sha512-w3iIaU4OxcF52UUXiZNsNeuXIMDvFrr+ZXK6bFZ0Q60qyVfq4uLptoS4bbq3paG3x216eQllFZX7zt6TIImguQ==}
     peerDependencies:
       rollup: ^2.0.0
     dependencies:
       '@babel/code-frame': 7.12.13
       jest-worker: 26.6.2
-      rollup: 2.71.0
+      rollup: 2.71.1
       serialize-javascript: 4.0.0
       terser: 5.6.0
     dev: true
 
-  /rollup/2.71.0:
-    resolution: {integrity: sha512-kZWB4FA9N/iZU/O9tVp08pPdxLM0i2iUDvcS77XT92DI81s3wYQcU/cA2FCXWj+HgJj8RUC2M0dXECwoOfDBYA==}
+  /rollup/2.71.1:
+    resolution: {integrity: sha512-lMZk3XfUBGjrrZQpvPSoXcZSfKcJ2Bgn+Z0L1MoW2V8Wh7BVM+LOBJTPo16yul2MwL59cXedzW1ruq3rCjSRgw==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
