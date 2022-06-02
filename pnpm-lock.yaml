@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 13.3.11
-  '@angular/compiler-cli': 13.3.11
+  '@angular/compiler': 14.0.0
+  '@angular/compiler-cli': 14.0.0
   '@rollup/plugin-babel': 5.3.1
   concurrently: 7.2.1
   husky: 8.0.1
@@ -21,8 +21,8 @@ specifiers:
   typescript: 4.7.2
 
 devDependencies:
-  '@angular/compiler': 13.3.11
-  '@angular/compiler-cli': 13.3.11_08a247d1086d295dc5a9fdead02181fe
+  '@angular/compiler': 14.0.0
+  '@angular/compiler-cli': 14.0.0_49fa485749a3ea513d59c8605fd2c264
   '@rollup/plugin-babel': 5.3.1_rollup@2.75.5
   concurrently: 7.2.1
   husky: 8.0.1
@@ -49,15 +49,15 @@ packages:
       '@jridgewell/trace-mapping': 0.3.4
     dev: true
 
-  /@angular/compiler-cli/13.3.11_08a247d1086d295dc5a9fdead02181fe:
-    resolution: {integrity: sha512-cl+3Wzxt8NRi2WY+RdsxuQ3yQRUp8pSlfSlJJnfaKE1BEqap6uem2DovuhnIbmrLhxZ5xt7o+I1szyO6sn6+ag==}
-    engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
+  /@angular/compiler-cli/14.0.0_49fa485749a3ea513d59c8605fd2c264:
+    resolution: {integrity: sha512-5T9AjguK4NsCjk4mdrSLV7BrifijKb79wFyDOQX5+p7GVRag47U6E6qQAKhsqZxLy7grrBX4fb0PFARL2OrkLQ==}
+    engines: {node: ^14.15.0 || >=16.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 13.3.11
-      typescript: '>=4.4.2 <4.7'
+      '@angular/compiler': 14.0.0
+      typescript: '>=4.6.2 <4.8'
     dependencies:
-      '@angular/compiler': 13.3.11
+      '@angular/compiler': 14.0.0
       '@babel/core': 7.17.8
       chokidar: 3.5.3
       convert-source-map: 1.8.0
@@ -73,9 +73,14 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/13.3.11:
-    resolution: {integrity: sha512-EV6JCBbXdHDHbPShWmymvuoxFYG0KVc8sDJpYp47WLHCY2zgZaXhvWs//Hrls3fmi+TGTekgRa2jOBBNce/Ggg==}
-    engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
+  /@angular/compiler/14.0.0:
+    resolution: {integrity: sha512-yWpru4coLOE2Ivn+1ltXPsaxai5MOUABPmYZfm47HN7vfVsxcTC44QDxGY73M9e18sngTIFi6qgr8vci1AT9lg==}
+    engines: {node: ^14.15.0 || >=16.10.0}
+    peerDependencies:
+      '@angular/core': 14.0.0
+    peerDependenciesMeta:
+      '@angular/core':
+        optional: true
     dependencies:
       tslib: 2.3.1
     dev: true
