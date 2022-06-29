@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 14.0.3
-  '@angular/compiler-cli': 14.0.3
+  '@angular/compiler': 14.0.4
+  '@angular/compiler-cli': 14.0.4
   '@rollup/plugin-babel': 5.3.1
   concurrently: 7.2.2
   husky: 8.0.1
@@ -21,8 +21,8 @@ specifiers:
   typescript: 4.7.4
 
 devDependencies:
-  '@angular/compiler': 14.0.3
-  '@angular/compiler-cli': 14.0.3_9410a5b2c98244b1269974ca82ef0ff6
+  '@angular/compiler': 14.0.4
+  '@angular/compiler-cli': 14.0.4_78bc04e247af5d9836929e06be844cbf
   '@rollup/plugin-babel': 5.3.1_rollup@2.75.7
   concurrently: 7.2.2
   husky: 8.0.1
@@ -49,15 +49,15 @@ packages:
       '@jridgewell/trace-mapping': 0.3.4
     dev: true
 
-  /@angular/compiler-cli/14.0.3_9410a5b2c98244b1269974ca82ef0ff6:
-    resolution: {integrity: sha512-+L6mp/NlY2t2CGK6Nr1z+TBA0gkQd2xa5NyEfVP32kc9LN5VtSNdTFEYcwwux3IdtiBnEgppCdO9cmnIIcyfMQ==}
+  /@angular/compiler-cli/14.0.4_78bc04e247af5d9836929e06be844cbf:
+    resolution: {integrity: sha512-j3T0dOwNov6rKcaxLMSlPLRvrBT6MyBTum18x6XvZRqb75RUAJ/yV+PXgtA//XZ2hjuy87+CvZy3tBKktvY7bA==}
     engines: {node: ^14.15.0 || >=16.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 14.0.3
+      '@angular/compiler': 14.0.4
       typescript: '>=4.6.2 <4.8'
     dependencies:
-      '@angular/compiler': 14.0.3
+      '@angular/compiler': 14.0.4
       '@babel/core': 7.17.8
       chokidar: 3.5.3
       convert-source-map: 1.8.0
@@ -73,11 +73,11 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/14.0.3:
-    resolution: {integrity: sha512-KfQgr9uptguZOUTA1zOvGpSraU8MQ46Sl0uW1xEppEzLzUqmkDcDClQo3IFV61qBEDyvsWEig4BqhN9EDVu+iw==}
+  /@angular/compiler/14.0.4:
+    resolution: {integrity: sha512-WdRpZFTX2vt71sSfQ89C1K5l2zhYtn8ON+ZlAVxyZ5uT0nA/Z/vuMLfNZB1WmcGVDOc7JmQduSiSaI0hhQqXqw==}
     engines: {node: ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/core': 14.0.3
+      '@angular/core': 14.0.4
     peerDependenciesMeta:
       '@angular/core':
         optional: true
@@ -2208,7 +2208,7 @@ packages:
   /jsonfile/4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
     optionalDependencies:
-      graceful-fs: 4.2.6
+      graceful-fs: 4.2.10
     dev: true
 
   /jsonfile/6.1.0:
