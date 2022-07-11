@@ -17,7 +17,7 @@ specifiers:
   rimraf: 3.0.2
   rollup: 2.76.0
   rollup-plugin-terser: 7.0.2
-  rxjs: 7.5.5
+  rxjs: 7.5.6
   typescript: 4.7.4
 
 devDependencies:
@@ -37,7 +37,7 @@ devDependencies:
   rimraf: 3.0.2
   rollup: 2.76.0
   rollup-plugin-terser: 7.0.2_rollup@2.76.0
-  rxjs: 7.5.5
+  rxjs: 7.5.6
   typescript: 4.7.4
 
 packages:
@@ -969,7 +969,7 @@ packages:
       chalk: 4.1.2
       date-fns: 2.17.0
       lodash: 4.17.21
-      rxjs: 7.5.5
+      rxjs: 7.5.6
       shell-quote: 1.7.3
       spawn-command: 0.0.2-1
       supports-color: 8.1.1
@@ -1905,7 +1905,7 @@ packages:
       mute-stream: 0.0.8
       ora: 6.1.2
       run-async: 2.4.1
-      rxjs: 7.5.5
+      rxjs: 7.5.6
       string-width: 5.1.2
       strip-ansi: 7.0.1
       through: 2.3.8
@@ -3104,10 +3104,10 @@ packages:
       queue-microtask: 1.2.2
     dev: true
 
-  /rxjs/7.5.5:
-    resolution: {integrity: sha512-sy+H0pQofO95VDmFLzyaw9xNJU4KTRSwQIGM6+iG3SypAtCiLDzpeG8sJrNCWn2Up9km+KhkvTdbkrdy+yzZdw==}
+  /rxjs/7.5.6:
+    resolution: {integrity: sha512-dnyv2/YsXhnm461G+R/Pe5bWP41Nm6LBXEYWI6eiFP4fiwx6WRI/CD0zbdVAudd9xwLEF2IDcKXLHit0FYjUzw==}
     dependencies:
-      tslib: 2.1.0
+      tslib: 2.3.1
     dev: true
 
   /safe-buffer/5.1.2:
@@ -3447,10 +3447,6 @@ packages:
   /tree-kill/1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
     hasBin: true
-    dev: true
-
-  /tslib/2.1.0:
-    resolution: {integrity: sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==}
     dev: true
 
   /tslib/2.3.1:
