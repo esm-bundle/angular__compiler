@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 14.2.5
-  '@angular/compiler-cli': 14.2.5
+  '@angular/compiler': 14.2.6
+  '@angular/compiler-cli': 14.2.6
   '@rollup/plugin-babel': 6.0.0
   concurrently: 7.4.0
   husky: 8.0.1
@@ -21,8 +21,8 @@ specifiers:
   typescript: 4.8.4
 
 devDependencies:
-  '@angular/compiler': 14.2.5
-  '@angular/compiler-cli': 14.2.5_09b0a7046872794844c1a7e3ea0f8933
+  '@angular/compiler': 14.2.6
+  '@angular/compiler-cli': 14.2.6_0922361635f077b16ad47631eb32c7a8
   '@rollup/plugin-babel': 6.0.0_rollup@2.79.1
   concurrently: 7.4.0
   husky: 8.0.1
@@ -49,15 +49,15 @@ packages:
       '@jridgewell/trace-mapping': 0.3.4
     dev: true
 
-  /@angular/compiler-cli/14.2.5_09b0a7046872794844c1a7e3ea0f8933:
-    resolution: {integrity: sha512-3GYzTPw96TfJjw7Aso+f+uN6VFBWedqRATUQ6v+BAEyZIboirdLI1JQFOcCfuKWUM2B48RW+pdIduZmG3ckotA==}
+  /@angular/compiler-cli/14.2.6_0922361635f077b16ad47631eb32c7a8:
+    resolution: {integrity: sha512-zKnpZ5WDbM31dwr5GDAbCblMIEUzWSglUyqCxJfbCg21dE0EuLfd/WzsROgM2TucOtCT5xNipqz4bc+wdEOIgQ==}
     engines: {node: ^14.15.0 || >=16.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 14.2.5
+      '@angular/compiler': 14.2.6
       typescript: '>=4.6.2 <4.9'
     dependencies:
-      '@angular/compiler': 14.2.5
+      '@angular/compiler': 14.2.6
       '@babel/core': 7.17.8
       chokidar: 3.5.3
       convert-source-map: 1.8.0
@@ -73,11 +73,11 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/14.2.5:
-    resolution: {integrity: sha512-L7d2/D6o9wlB2ugqRYpev6a8JntqS+7lF2o6z8y7RR2YAlAu71nq0BDsQez4/aSCK3HnDq0yhEnns7vcmOq/jA==}
+  /@angular/compiler/14.2.6:
+    resolution: {integrity: sha512-XtmJRNQQ/bUcRjB6jG67km3EPug8frnHH50sLqxye+cljCzWQpzFN/Qr1z0abuzEX8OC4alqxCDCFgTFyyVkaQ==}
     engines: {node: ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/core': 14.2.5
+      '@angular/core': 14.2.6
     peerDependenciesMeta:
       '@angular/core':
         optional: true
