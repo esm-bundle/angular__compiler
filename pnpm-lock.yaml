@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@angular/compiler': 14.2.7
   '@angular/compiler-cli': 14.2.7
-  '@rollup/plugin-babel': 6.0.1
+  '@rollup/plugin-babel': 6.0.2
   concurrently: 7.4.0
   husky: 8.0.1
   karma: 6.4.1
@@ -23,7 +23,7 @@ specifiers:
 devDependencies:
   '@angular/compiler': 14.2.7
   '@angular/compiler-cli': 14.2.7_d0e22b2a42ead2b272895a71859ccbf4
-  '@rollup/plugin-babel': 6.0.1_rollup@2.79.1
+  '@rollup/plugin-babel': 6.0.2_rollup@2.79.1
   concurrently: 7.4.0
   husky: 8.0.1
   karma: 6.4.1
@@ -481,8 +481,8 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rollup/plugin-babel/6.0.1_rollup@2.79.1:
-    resolution: {integrity: sha512-wUIj1GD+Ch55u8RVDOLl6ciG/kqtwiDk80PGAnFS/K/2EB3oFw4v1TYjmNYng6SunYX0o/2+/n67iYJ0StJs5w==}
+  /@rollup/plugin-babel/6.0.2_rollup@2.79.1:
+    resolution: {integrity: sha512-Vnt8XIWYwCf3MD7qhBWYlP9pjSZvcE++nlPXhQYw6YNehl5742AzFbrV6h4BHb20VAOVUlIksVLymQCTwVCGDg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
