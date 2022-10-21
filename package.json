@@ -43,7 +43,7 @@
   "devDependencies": {
     "@angular/compiler": "14.2.7",
     "@angular/compiler-cli": "14.2.7",
-    "@rollup/plugin-babel": "6.0.0",
+    "@rollup/plugin-babel": "6.0.1",
     "concurrently": "7.4.0",
     "husky": "8.0.1",
     "karma": "6.4.1",
