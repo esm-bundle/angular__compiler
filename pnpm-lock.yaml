@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 15.0.0
-  '@angular/compiler-cli': 15.0.0
+  '@angular/compiler': 15.0.1
+  '@angular/compiler-cli': 15.0.1
   '@rollup/plugin-babel': 6.0.2
   concurrently: 7.6.0
   husky: 8.0.2
@@ -21,8 +21,8 @@ specifiers:
   typescript: 4.9.3
 
 devDependencies:
-  '@angular/compiler': 15.0.0
-  '@angular/compiler-cli': 15.0.0_ebe5501ba9c4367d052e6e1e7a1d29e2
+  '@angular/compiler': 15.0.1
+  '@angular/compiler-cli': 15.0.1_ca61cb5444988fd24454109da5e26c02
   '@rollup/plugin-babel': 6.0.2_rollup@2.79.1
   concurrently: 7.6.0
   husky: 8.0.2
@@ -49,15 +49,15 @@ packages:
       '@jridgewell/trace-mapping': 0.3.4
     dev: true
 
-  /@angular/compiler-cli/15.0.0_ebe5501ba9c4367d052e6e1e7a1d29e2:
-    resolution: {integrity: sha512-q0NS3xLZAB/rak486lOqJd6IT1pIYsUBuYgPXyqjrq/iKt7t+T4juVZMJZpNZOxeBurPeGWpPpJ1Kn1BeqlAmQ==}
+  /@angular/compiler-cli/15.0.1_ca61cb5444988fd24454109da5e26c02:
+    resolution: {integrity: sha512-M2VsKBw8dQMC5p3PmpM+EBZAZ9Qk/rGX+aIHYBGzsgGFqYMEcz6Nxrj4v6I3Hta7tW7QEVXf883rXiWxHlwtbw==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 15.0.0
+      '@angular/compiler': 15.0.1
       typescript: '>=4.8.2 <4.9'
     dependencies:
-      '@angular/compiler': 15.0.0
+      '@angular/compiler': 15.0.1
       '@babel/core': 7.17.8
       chokidar: 3.5.3
       convert-source-map: 1.8.0
@@ -73,11 +73,11 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/15.0.0:
-    resolution: {integrity: sha512-k+tsyKpbPvumBr0qtGZ/bisoq/1evvTa6dCUR126Yb1bX0HlBodwIqu9Xjh3nY90hMak+3zHznj6kJB83LoLeA==}
+  /@angular/compiler/15.0.1:
+    resolution: {integrity: sha512-4talkxip79XPfoj69qgY8VXV1KIBKOyZCRWHhNVqMdECyw/fceVWN4r8kDL0qOTBh1CKmhoQFXQilr9g7nFatA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
-      '@angular/core': 15.0.0
+      '@angular/core': 15.0.1
     peerDependenciesMeta:
       '@angular/core':
         optional: true
