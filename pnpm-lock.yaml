@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 15.0.3
-  '@angular/compiler-cli': 15.0.3
+  '@angular/compiler': 15.0.4
+  '@angular/compiler-cli': 15.0.4
   '@rollup/plugin-babel': 6.0.3
   concurrently: 7.6.0
   husky: 8.0.2
@@ -21,8 +21,8 @@ specifiers:
   typescript: 4.9.4
 
 devDependencies:
-  '@angular/compiler': 15.0.3
-  '@angular/compiler-cli': 15.0.3_63560ddcf3dcc1cffcd1ea7145a2a8de
+  '@angular/compiler': 15.0.4
+  '@angular/compiler-cli': 15.0.4_ffd3d8837906c23faf3f5c6d3c529852
   '@rollup/plugin-babel': 6.0.3_rollup@2.79.1
   concurrently: 7.6.0
   husky: 8.0.2
@@ -49,23 +49,23 @@ packages:
       '@jridgewell/trace-mapping': 0.3.4
     dev: true
 
-  /@angular/compiler-cli/15.0.3_63560ddcf3dcc1cffcd1ea7145a2a8de:
-    resolution: {integrity: sha512-3IH1Ns4Ed/VFQlNNtgIcorht7JK7SoBzpbxrbqjogoHZwUR3OTn+dvX87N7zMn0yxAL0T6Jv0UTILcGY0EP9HQ==}
+  /@angular/compiler-cli/15.0.4_ffd3d8837906c23faf3f5c6d3c529852:
+    resolution: {integrity: sha512-e6Jt4qkIiyqBg8ZlpcQaQtQ5OAnfl8gfkJnIwSvvCg0mPCJv+ZkQAL5s3SpzzM5jd7Nr0jBq3zd2Fv0eKW2ayw==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 15.0.3
+      '@angular/compiler': 15.0.4
       typescript: '>=4.8.2 <4.9'
     dependencies:
-      '@angular/compiler': 15.0.3
+      '@angular/compiler': 15.0.4
       '@babel/core': 7.17.8
+      '@jridgewell/sourcemap-codec': 1.4.14
       chokidar: 3.5.3
       convert-source-map: 1.8.0
       dependency-graph: 0.11.0
       magic-string: 0.27.0
       reflect-metadata: 0.1.13
       semver: 7.3.8
-      sourcemap-codec: 1.4.8
       tslib: 2.3.1
       typescript: 4.9.4
       yargs: 17.4.0
@@ -73,11 +73,11 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/15.0.3:
-    resolution: {integrity: sha512-LNQkQgjAy43ZbQcoUzbzwaCokl6LQHhnTnGIO8s8ZWFT9cTRORsLb/ziMKPPIWlSUImHUG4NH0dK7fVe7/eAng==}
+  /@angular/compiler/15.0.4:
+    resolution: {integrity: sha512-KtxgRJUGZamOXpIILFG2FTUW+bbc2phi/o6955/Q4LR1HOICQrYEy8PrT1Gp+lVXFKgDG+6cb01lH14LoBQvyw==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
-      '@angular/core': 15.0.3
+      '@angular/core': 15.0.4
     peerDependenciesMeta:
       '@angular/core':
         optional: true
@@ -3309,11 +3309,6 @@ packages:
   /source-map/0.7.3:
     resolution: {integrity: sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==}
     engines: {node: '>= 8'}
-    dev: true
-
-  /sourcemap-codec/1.4.8:
-    resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
-    deprecated: Please use @jridgewell/sourcemap-codec instead
     dev: true
 
   /spawn-command/0.0.2-1:
