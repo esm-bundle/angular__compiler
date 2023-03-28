@@ -44,7 +44,7 @@
     "@angular/compiler": "15.2.4",
     "@angular/compiler-cli": "15.2.4",
     "@rollup/plugin-babel": "6.0.3",
-    "concurrently": "7.6.0",
+    "concurrently": "8.0.0",
     "husky": "8.0.3",
     "karma": "6.4.1",
     "karma-firefox-launcher": "2.1.2",
