@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@angular/compiler': 15.2.5
-  '@angular/compiler-cli': 15.2.5
+  '@angular/compiler': 15.2.6
+  '@angular/compiler-cli': 15.2.6
   '@rollup/plugin-babel': 6.0.3
   concurrently: 8.0.1
   husky: 8.0.3
@@ -21,8 +21,8 @@ specifiers:
   typescript: 5.0.3
 
 devDependencies:
-  '@angular/compiler': 15.2.5
-  '@angular/compiler-cli': 15.2.5_f1b8031e0e17f6e2379819d4a8d1e17f
+  '@angular/compiler': 15.2.6
+  '@angular/compiler-cli': 15.2.6_e610e3bd24f57f10a46a3e966e3574e5
   '@rollup/plugin-babel': 6.0.3_rollup@2.79.1
   concurrently: 8.0.1
   husky: 8.0.3
@@ -49,15 +49,15 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@angular/compiler-cli/15.2.5_f1b8031e0e17f6e2379819d4a8d1e17f:
-    resolution: {integrity: sha512-NNrnvL0JMg6dZMuTgBTb/IVIFJwy2my5XTNLngTNBfDCVu0SL1TKrYnpqp2qRi2ip9XdNqCtNF7JFDEklVbK2A==}
+  /@angular/compiler-cli/15.2.6_e610e3bd24f57f10a46a3e966e3574e5:
+    resolution: {integrity: sha512-GHwL4l+NkaUGGdypF+nMFWCmTqvGusTzIriIwpnp38wc8lpmVME2jVodB6sHAkrxFmaHXU/gOCDFK4AnOi6Gmw==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 15.2.5
+      '@angular/compiler': 15.2.6
       typescript: '>=4.8.2 <5.0'
     dependencies:
-      '@angular/compiler': 15.2.5
+      '@angular/compiler': 15.2.6
       '@babel/core': 7.19.3
       '@jridgewell/sourcemap-codec': 1.4.14
       chokidar: 3.5.3
@@ -73,11 +73,11 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/15.2.5:
-    resolution: {integrity: sha512-0mAFF6Ud4ojsb8qGLQCWYh/LgKKrnn1Fz788LzfYcLYhi7UZPiCFrQJrEcCXBKtQsk8sG335CA9Qk0I/qc35zg==}
+  /@angular/compiler/15.2.6:
+    resolution: {integrity: sha512-6oBAIY5KcC1UNsrnWGLcopZ9RD7c0HzpTCQY46N6HytHtUjBvzLbGWZu5MfahPtIjKz9FMVYBX9hugcbVpWnTA==}
     engines: {node: ^14.20.0 || ^16.13.0 || >=18.10.0}
     peerDependencies:
-      '@angular/core': 15.2.5
+      '@angular/core': 15.2.6
     peerDependenciesMeta:
       '@angular/core':
         optional: true
