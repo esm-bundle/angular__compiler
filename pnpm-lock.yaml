@@ -4,7 +4,7 @@ specifiers:
   '@angular/compiler': 15.2.9
   '@angular/compiler-cli': 15.2.9
   '@rollup/plugin-babel': 6.0.3
-  concurrently: 8.0.1
+  concurrently: 8.1.0
   husky: 8.0.3
   karma: 6.4.2
   karma-firefox-launcher: 2.1.2
@@ -24,7 +24,7 @@ devDependencies:
   '@angular/compiler': 15.2.9
   '@angular/compiler-cli': 15.2.9_24b6d69a67aec6b5c029fac65cba72a5
   '@rollup/plugin-babel': 6.0.3_rollup@2.79.1
-  concurrently: 8.0.1
+  concurrently: 8.1.0
   husky: 8.0.3
   karma: 6.4.2
   karma-firefox-launcher: 2.1.2
@@ -1025,8 +1025,8 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
-  /concurrently/8.0.1:
-    resolution: {integrity: sha512-Sh8bGQMEL0TAmAm2meAXMjcASHZa7V0xXQVDBLknCPa9TPtkY9yYs+0cnGGgfdkW0SV1Mlg+hVGfXcoI8d3MJA==}
+  /concurrently/8.1.0:
+    resolution: {integrity: sha512-0AB6eOAtaW/r/kX2lCdolaWtT191ICeuJjEJvI9hT3zbPFuZ/iZaJwMRKwbuwADome7OKxk73L7od+fsveZ7tA==}
     engines: {node: ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
