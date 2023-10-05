@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@angular/compiler': 15.2.10
   '@angular/compiler-cli': 15.2.10
-  '@rollup/plugin-babel': 6.0.3
+  '@rollup/plugin-babel': 6.0.4
   concurrently: 8.2.1
   husky: 8.0.3
   karma: 6.4.2
@@ -23,7 +23,7 @@ specifiers:
 devDependencies:
   '@angular/compiler': 15.2.10
   '@angular/compiler-cli': 15.2.10_2c15874aae5ecdace32e0a6fbd9dc350
-  '@rollup/plugin-babel': 6.0.3_rollup@2.79.1
+  '@rollup/plugin-babel': 6.0.4_rollup@2.79.1
   concurrently: 8.2.1
   husky: 8.0.3
   karma: 6.4.2
@@ -173,7 +173,7 @@ packages:
     resolution: {integrity: sha512-0NFvs3VkuSYbFi1x2Vd6tKrywq+z/cLeYC/RJNFrIX/30Bf5aiGYbtvGXolEktzJH8o5E5KJ3tT+nkxuuZFVlA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.19.3
+      '@babel/types': 7.20.7
     dev: true
 
   /@babel/helper-module-transforms/7.20.11:
@@ -281,15 +281,6 @@ packages:
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@babel/types/7.19.3:
-    resolution: {integrity: sha512-hGCaQzIY22DJlDh9CH7NOxgKkFjBk0Cw9xDO1Xmh2151ti7wiGfQ3LauXzL4HP1fmFlTX6XjpRETTpUcv7wQLw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.19.4
-      '@babel/helper-validator-identifier': 7.19.1
-      to-fast-properties: 2.0.0
     dev: true
 
   /@babel/types/7.20.7:
@@ -531,13 +522,13 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rollup/plugin-babel/6.0.3_rollup@2.79.1:
-    resolution: {integrity: sha512-fKImZKppa1A/gX73eg4JGo+8kQr/q1HBQaCGKECZ0v4YBBv3lFqi14+7xyApECzvkLTHCifx+7ntcrvtBIRcpg==}
+  /@rollup/plugin-babel/6.0.4_rollup@2.79.1:
+    resolution: {integrity: sha512-YF7Y52kFdFT/xVSuVdjkV5ZdX/3YtmX0QulG+x0taQOtJdHYzVU61aSSkAgVJ7NOv6qPkIYiJSgSWWN/DM5sGw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
       '@types/babel__core': ^7.1.9
-      rollup: ^1.20.0||^2.0.0||^3.0.0
+      rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
       '@types/babel__core':
         optional: true
