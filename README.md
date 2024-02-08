@@ -12,25 +12,15 @@ Upstream repo at https://github.com/joeldenning/angular__compiler.
 
 ### Latest Version
 
-#### ES2015
+#### ES2022
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__compiler/system/es2015/ivy/angular-compiler.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__compiler/system/es2022/ivy/angular-compiler.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__compiler/system/es2015/ivy/angular-compiler.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__compiler/system/es2022/ivy/angular-compiler.min.js
 
-https://unpkg.com/@esm-bundle/angular__compiler/system/es2015/ivy/angular-compiler.js
+https://unpkg.com/@esm-bundle/angular__compiler/system/es2022/ivy/angular-compiler.js
 
-https://unpkg.com/@esm-bundle/angular__compiler/system/es2015/ivy/angular-compiler.min.js
-
-#### ES2020
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__compiler/system/es2020/ivy/angular-compiler.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__compiler/system/es2020/ivy/angular-compiler.min.js
-
-https://unpkg.com/@esm-bundle/angular__compiler/system/es2020/ivy/angular-compiler.js
-
-https://unpkg.com/@esm-bundle/angular__compiler/system/es2020/ivy/angular-compiler.min.js
+https://unpkg.com/@esm-bundle/angular__compiler/system/es2022/ivy/angular-compiler.min.js
 
 ### Specific Version
 

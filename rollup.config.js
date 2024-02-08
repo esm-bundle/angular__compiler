@@ -1,9 +1,19 @@
-import { join } from "path";
-import { terser } from "rollup-plugin-terser";
-import packageJson from "@angular/compiler/package.json";
+import fs from "fs";
+import url from "url";
+import path from "path";
+import terser from "@rollup/plugin-terser";
+
+const __dirname = new url.URL(".", import.meta.url).pathname;
+const packageJson = JSON.parse(
+  fs
+    .readFileSync(
+      path.resolve(__dirname, "node_modules/@angular/compiler/package.json"),
+    )
+    .toString(),
+);
 
 export default [
-  ...["2015", "2020"]
+  ...["2022"]
     .map((ecma) => [
       createConfig({ ecma, prod: false, format: "system" }),
       createConfig({ ecma, prod: true, format: "system" }),
@@ -17,9 +27,9 @@ function createConfig({ ecma, prod, format }) {
   const dir = (format === "es" ? "." : format) + `/es${ecma}/ivy`;
 
   return {
-    input: join(
+    input: path.join(
       __dirname,
-      `node_modules/@angular/compiler/fesm${ecma}/compiler.mjs`
+      `node_modules/@angular/compiler/fesm${ecma}/compiler.mjs`,
     ),
     output: {
       file: `${dir}/angular-compiler.${prod ? "min." : ""}js`,
