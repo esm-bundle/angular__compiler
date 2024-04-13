@@ -10,5 +10,5 @@ system/
 karma.conf.cjs
 .nvmrc
 .husky
-yarn.lock
+pnpm-lock.yaml
 es2022

@@ -10,14 +10,15 @@
     }
   },
   "scripts": {
-    "test": "yarn build && concurrently -n w: 'yarn:test:*'",
+    "pretty-quick": "pretty-quick",
+    "test": "pnpm run build && concurrently -n w: 'pnpm:test:*'",
     "test:browser": "karma start karma.conf.cjs --single-run",
     "debug:test:browser": "karma start karma.conf.cjs",
     "test:formatting": "prettier --check .",
     "build": "rimraf system es2022 && rollup -c",
     "format": "prettier --write .",
     "release": "release-it",
-    "prepublishOnly": "yarn && pinst --disable",
+    "prepublishOnly": "pnpm run build && pinst --disable",
     "postinstall": "husky install",
     "postpublish": "pinst --enable"
   },

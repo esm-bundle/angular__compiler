@@ -15,8 +15,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "18.13"
-      - run: yarn --frozen-lockfile
-      - run: yarn test
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+          run_install: false
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run test
   publish:
     runs-on: ubuntu-latest
     env:
@@ -38,11 +42,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "18.13"
-      - run: yarn --frozen-lockfile
+      - uses: pnpm/action-setup@v3
+        with:
+          version: 8
+          run_install: false
+      - run: pnpm install --frozen-lockfile
       - name: Setup auth
         run: |
           git config --global user.email "$BOT_EMAIL"
           git config --global user.name "esm-bundle-org-bot"
           echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
       - name: "Publish to npm"
-        run: yarn release
+        run: pnpm run release
