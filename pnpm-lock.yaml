@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@angular/compiler':
-    specifier: 17.3.9
-    version: 17.3.9
+    specifier: 17.3.10
+    version: 17.3.10
   '@angular/compiler-cli':
-    specifier: 17.3.9
-    version: 17.3.9(@angular/compiler@17.3.9)(typescript@5.4.5)
+    specifier: 17.3.10
+    version: 17.3.10(@angular/compiler@17.3.10)(typescript@5.4.5)
   '@rollup/plugin-babel':
     specifier: 6.0.4
     version: 6.0.4(@babel/core@7.24.4)(rollup@4.18.0)
@@ -70,21 +70,21 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@angular/compiler-cli@17.3.9(@angular/compiler@17.3.9)(typescript@5.4.5):
-    resolution: {integrity: sha512-J6aqoz5wqPWaurbZFUZ7iMUlzAJYXzntziJJbalm6ceXfUWEe2Vm67nGUROWCIFvO3kWXvkgYX4ubnqtod2AxA==}
+  /@angular/compiler-cli@17.3.10(@angular/compiler@17.3.10)(typescript@5.4.5):
+    resolution: {integrity: sha512-85SBphqRj3szac3FbeYgEZ+I6WaAlo5h7JX06BdjOLLiaoIwlFhLeAuG+jVekseV+95grFUxIsCMphWHi2e6hQ==}
     engines: {node: ^18.13.0 || >=20.9.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 17.3.9
+      '@angular/compiler': 17.3.10
       typescript: '>=5.2 <5.5'
     dependencies:
-      '@angular/compiler': 17.3.9
+      '@angular/compiler': 17.3.10
       '@babel/core': 7.23.9
       '@jridgewell/sourcemap-codec': 1.4.15
       chokidar: 3.6.0
       convert-source-map: 1.9.0
       reflect-metadata: 0.2.2
-      semver: 7.6.0
+      semver: 7.6.2
       tslib: 2.6.2
       typescript: 5.4.5
       yargs: 17.7.2
@@ -92,11 +92,11 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler@17.3.9:
-    resolution: {integrity: sha512-2d4bPbNm7O2GanqCj5GFgPDnmjbAcsQM502Jnvcv7Aje82yecT69JoqAVRqGOfbbxwlJiPhi31D8DPdLaOz47Q==}
+  /@angular/compiler@17.3.10:
+    resolution: {integrity: sha512-6Ce4siHyF0fCZBDm/cz+blJByGDu1/hbPkQVGmk5HGZTmCUeKkgyjoM6bZr7ssAsyGDRwxBh2SGHO4Ce31vuPA==}
     engines: {node: ^18.13.0 || >=20.9.0}
     peerDependencies:
-      '@angular/core': 17.3.9
+      '@angular/core': 17.3.10
     peerDependenciesMeta:
       '@angular/core':
         optional: true
@@ -2820,13 +2820,6 @@ packages:
       yallist: 3.1.1
     dev: true
 
-  /lru-cache@6.0.0:
-    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
-    engines: {node: '>=10'}
-    dependencies:
-      yallist: 4.0.0
-    dev: true
-
   /lru-cache@7.18.3:
     resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
     engines: {node: '>=12'}
@@ -3651,14 +3644,6 @@ packages:
     hasBin: true
     dev: true
 
-  /semver@7.6.0:
-    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
-    dev: true
-
   /semver@7.6.2:
     resolution: {integrity: sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w==}
     engines: {node: '>=10'}
@@ -4341,10 +4326,6 @@ packages:
 
   /yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
-    dev: true
-
-  /yallist@4.0.0:
-    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: true
 
   /yargs-parser@20.2.9:
