@@ -11,15 +11,16 @@ jobs:
     env:
       MOZ_HEADLESS: 1
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "15"
-      - uses: pnpm/action-setup@v2.4.0
+          node-version: "18.13"
+      - uses: pnpm/action-setup@v3
         with:
-          version: 5.17.3
+          version: 8
+          run_install: false
       - run: pnpm install --frozen-lockfile
-      - run: pnpm test
+      - run: pnpm run test
   publish:
     runs-on: ubuntu-latest
     env:
@@ -33,17 +34,18 @@ jobs:
     needs: build
     if: github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
         with:
           # Use our own token instead of the default token
           # this step persists login credentials so strongly that we couldn't get them to override
           token: ${{ secrets.PUBLISH_BOT }}
       - uses: actions/setup-node@v4
         with:
-          node-version: "15"
-      - uses: pnpm/action-setup@v2.4.0
+          node-version: "18.13"
+      - uses: pnpm/action-setup@v3
         with:
-          version: 5.17.3
+          version: 8
+          run_install: false
       - run: pnpm install --frozen-lockfile
       - name: Setup auth
         run: |

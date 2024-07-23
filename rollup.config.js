@@ -1,16 +1,12 @@
-import fs from "fs";
-import url from "url";
-import path from "path";
+import { join, dirname } from "node:path";
+import { createRequire } from "node:module";
+import { fileURLToPath } from "node:url";
 import terser from "@rollup/plugin-terser";
 
-const __dirname = new url.URL(".", import.meta.url).pathname;
-const packageJson = JSON.parse(
-  fs
-    .readFileSync(
-      path.resolve(__dirname, "node_modules/@angular/compiler/package.json"),
-    )
-    .toString(),
-);
+const require = createRequire(import.meta.url);
+const packageJson = require("@angular/compiler/package.json");
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 export default [
   ...["2022"]
@@ -24,10 +20,10 @@ export default [
 ];
 
 function createConfig({ ecma, prod, format }) {
-  const dir = (format === "es" ? "." : format) + `/es${ecma}/ivy`;
+  const dir = (format === "es" ? "." : format) + `/es${ecma}`;
 
   return {
-    input: path.join(
+    input: join(
       __dirname,
       `node_modules/@angular/compiler/fesm${ecma}/compiler.mjs`,
     ),
@@ -35,7 +31,7 @@ function createConfig({ ecma, prod, format }) {
       file: `${dir}/angular-compiler.${prod ? "min." : ""}js`,
       format,
       sourcemap: true,
-      banner: `/* esm-bundle - @angular/compiler@${packageJson.version} - Ivy - ${format} format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */`,
+      banner: `/* esm-bundle - @angular/compiler@${packageJson.version} - ${format} format - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */`,
     },
     plugins: [
       prod &&
