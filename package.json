@@ -40,8 +40,8 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__compiler#readme",
   "devDependencies": {
-    "@angular/compiler": "18.1.2",
-    "@angular/compiler-cli": "18.1.2",
+    "@angular/compiler": "18.1.3",
+    "@angular/compiler-cli": "18.1.3",
     "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-terser": "0.4.4",
     "concurrently": "8.2.2",
