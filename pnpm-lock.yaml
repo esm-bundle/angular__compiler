@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@angular/compiler':
-    specifier: 18.2.8
-    version: 18.2.8
+    specifier: 18.2.9
+    version: 18.2.9
   '@angular/compiler-cli':
-    specifier: 18.2.8
-    version: 18.2.8(@angular/compiler@18.2.8)(typescript@5.6.3)
+    specifier: 18.2.9
+    version: 18.2.9(@angular/compiler@18.2.9)(typescript@5.6.3)
   '@rollup/plugin-babel':
     specifier: 6.0.4
     version: 6.0.4(@babel/core@7.25.2)(rollup@4.24.0)
@@ -70,15 +70,15 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@angular/compiler-cli@18.2.8(@angular/compiler@18.2.8)(typescript@5.6.3):
-    resolution: {integrity: sha512-OksDE4LWQUCcIvMjtZF7eiDCdIMrcMMpC1+Q0PIYi7KmnqXFGs4/Y0NdJvtn/LrQznzz5WaKM3ZDVNZTRX4wmw==}
+  /@angular/compiler-cli@18.2.9(@angular/compiler@18.2.9)(typescript@5.6.3):
+    resolution: {integrity: sha512-4iMoRvyMmq/fdI/4Gob9HKjL/jvTlCjbS4kouAYHuGO9w9dmUhi1pY1z+mALtCEl9/Q8CzU2W8e5cU2xtV4nVg==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 18.2.8
+      '@angular/compiler': 18.2.9
       typescript: '>=5.4 <5.6'
     dependencies:
-      '@angular/compiler': 18.2.8
+      '@angular/compiler': 18.2.9
       '@babel/core': 7.25.2
       '@jridgewell/sourcemap-codec': 1.4.15
       chokidar: 4.0.1
@@ -92,11 +92,11 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler@18.2.8:
-    resolution: {integrity: sha512-JRedHNfK1CCPVyeGQB5w3WBYqMA6X8Q240CkvjlGfn0pVXihf9DWk3nkSQJVgYxpvpHfxdgjaYZ5IpMzlkmkhw==}
+  /@angular/compiler@18.2.9:
+    resolution: {integrity: sha512-fchbcbsyTOd/qHGy+yPEmE1p10OTNEjGrWHQzUbf3xdlm23EvxHTitHh8i6EBdwYnM5zz0IIBhltP8tt89oeYw==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
-      '@angular/core': 18.2.8
+      '@angular/core': 18.2.9
     peerDependenciesMeta:
       '@angular/core':
         optional: true
