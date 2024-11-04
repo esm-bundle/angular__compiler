@@ -44,7 +44,7 @@
     "@angular/compiler-cli": "18.2.10",
     "@rollup/plugin-babel": "6.0.4",
     "@rollup/plugin-terser": "0.4.4",
-    "concurrently": "9.0.1",
+    "concurrently": "9.1.0",
     "husky": "9.1.6",
     "karma": "6.4.4",
     "karma-firefox-launcher": "2.1.3",
