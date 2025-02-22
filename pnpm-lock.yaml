@@ -54,8 +54,8 @@ devDependencies:
     specifier: 4.34.8
     version: 4.34.8
   rxjs:
-    specifier: 7.8.1
-    version: 7.8.1
+    specifier: 7.8.2
+    version: 7.8.2
   typescript:
     specifier: 5.7.3
     version: 5.7.3
@@ -1232,7 +1232,7 @@ packages:
     dependencies:
       chalk: 4.1.2
       lodash: 4.17.21
-      rxjs: 7.8.1
+      rxjs: 7.8.2
       shell-quote: 1.8.1
       supports-color: 8.1.1
       tree-kill: 1.2.2
@@ -2017,7 +2017,7 @@ packages:
       ansi-escapes: 4.3.2
       mute-stream: 2.0.0
       run-async: 3.0.0
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     dev: true
 
   /interpret@1.4.0:
@@ -3083,8 +3083,8 @@ packages:
       queue-microtask: 1.2.3
     dev: true
 
-  /rxjs@7.8.1:
-    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
+  /rxjs@7.8.2:
+    resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
     dependencies:
       tslib: 2.6.2
     dev: true
