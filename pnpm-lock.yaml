@@ -42,11 +42,11 @@ devDependencies:
     specifier: 4.1.1
     version: 4.1.1(prettier@3.5.3)
   release-it:
-    specifier: 19.0.0
-    version: 19.0.0
+    specifier: 19.0.1
+    version: 19.0.1
   release-it-plugin-esm-bundle:
     specifier: 3.0.0
-    version: 3.0.0(release-it@19.0.0)
+    version: 3.0.0(release-it@19.0.1)
   rimraf:
     specifier: 6.0.1
     version: 6.0.1
@@ -2635,16 +2635,16 @@ packages:
     resolution: {integrity: sha512-urBwgfrvVP/eAyXx4hluJivBKzuEbSQs9rKWCrCkbSxNv8mxPcUZKeuoF3Uy4mJl3Lwprp6yy5/39VWigZ4K6Q==}
     dev: true
 
-  /release-it-plugin-esm-bundle@3.0.0(release-it@19.0.0):
+  /release-it-plugin-esm-bundle@3.0.0(release-it@19.0.1):
     resolution: {integrity: sha512-3N85d6C37Dk1ArUazjOz4nwubOGZS6fL7QLG1Hr0ZXAz7CDLiBfEeq3VccHkT8U0Ho797gWDA2FY36kVDmmpHw==}
     peerDependencies:
       release-it: '>=15.0.0'
     dependencies:
-      release-it: 19.0.0
+      release-it: 19.0.1
     dev: true
 
-  /release-it@19.0.0:
-    resolution: {integrity: sha512-gbhYQ9gT8LvnXGgW97fvtFAZb57LwaOnwga+LxpWkkMudIvdaIY8K5/fDeE8AUW5N3HsfmLSqAxt0yXsUVVfdg==}
+  /release-it@19.0.1:
+    resolution: {integrity: sha512-n+ZgPmyaEigl+oZguu4fwxIGGE+ydiFSzxuUZWDsQ822qbaCah5CC4EwSDqMT/bRT+ekYnb2Qyf2nV8vjK+Xdg==}
     engines: {node: ^20.9.0 || >=22.0.0}
     hasBin: true
     dependencies:
