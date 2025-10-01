@@ -10,7 +10,7 @@ devDependencies:
     version: 20.3.2
   '@angular/compiler-cli':
     specifier: 20.3.2
-    version: 20.3.2(@angular/compiler@20.3.2)(typescript@5.9.2)
+    version: 20.3.2(@angular/compiler@20.3.2)(typescript@5.9.3)
   '@rollup/plugin-babel':
     specifier: 6.0.4
     version: 6.0.4(@babel/core@7.28.3)(rollup@4.52.3)
@@ -57,8 +57,8 @@ devDependencies:
     specifier: 7.8.2
     version: 7.8.2
   typescript:
-    specifier: 5.9.2
-    version: 5.9.2
+    specifier: 5.9.3
+    version: 5.9.3
 
 packages:
 
@@ -70,7 +70,7 @@ packages:
       '@jridgewell/trace-mapping': 0.3.29
     dev: true
 
-  /@angular/compiler-cli@20.3.2(@angular/compiler@20.3.2)(typescript@5.9.2):
+  /@angular/compiler-cli@20.3.2(@angular/compiler@20.3.2)(typescript@5.9.3):
     resolution: {integrity: sha512-rLox2THiALVQqYGUaxZ6YD8qUoXIOGTw3s0tim9/U65GuXGRtYgG0ZQWYp3yjEBes0Ksx2/15eFPp1Ol4FdEKQ==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     hasBin: true
@@ -89,7 +89,7 @@ packages:
       reflect-metadata: 0.2.2
       semver: 7.7.2
       tslib: 2.8.1
-      typescript: 5.9.2
+      typescript: 5.9.3
       yargs: 18.0.0
     transitivePeerDependencies:
       - supports-color
@@ -3079,8 +3079,8 @@ packages:
       mime-types: 2.1.35
     dev: true
 
-  /typescript@5.9.2:
-    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
+  /typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
