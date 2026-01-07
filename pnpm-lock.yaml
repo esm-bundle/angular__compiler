@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@angular/compiler':
-    specifier: 21.0.6
-    version: 21.0.6
+    specifier: 21.0.7
+    version: 21.0.7
   '@angular/compiler-cli':
-    specifier: 21.0.6
-    version: 21.0.6(@angular/compiler@21.0.6)(typescript@5.9.3)
+    specifier: 21.0.7
+    version: 21.0.7(@angular/compiler@21.0.7)(typescript@5.9.3)
   '@rollup/plugin-babel':
     specifier: 6.1.0
     version: 6.1.0(@babel/core@7.28.4)(rollup@4.55.1)
@@ -62,24 +62,24 @@ devDependencies:
 
 packages:
 
-  /@angular/compiler-cli@21.0.6(@angular/compiler@21.0.6)(typescript@5.9.3):
-    resolution: {integrity: sha512-UcIUx+fbn0VLlCBCIYxntAzWG3zPRUo0K7wvuK0MC6ZFCWawgewx9SdLLZTqcaWe1g5FRQlQeVQcFgHAO5R2Mw==}
+  /@angular/compiler-cli@21.0.7(@angular/compiler@21.0.7)(typescript@5.9.3):
+    resolution: {integrity: sha512-M4ePAA7AwjTsbUq6Qpremgo7qIP9GIgWqV5FoJPUEthtFGPNEiKGYjpOtXJ/OLB1J2Tn0ygrqe0PAYE0YxeEUA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 21.0.6
+      '@angular/compiler': 21.0.7
       typescript: '>=5.9 <6.0'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
-      '@angular/compiler': 21.0.6
+      '@angular/compiler': 21.0.7
       '@babel/core': 7.28.4
       '@jridgewell/sourcemap-codec': 1.5.4
       chokidar: 4.0.3
       convert-source-map: 1.9.0
       reflect-metadata: 0.2.2
-      semver: 7.7.2
+      semver: 7.7.3
       tslib: 2.8.1
       typescript: 5.9.3
       yargs: 18.0.0
@@ -87,8 +87,8 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler@21.0.6:
-    resolution: {integrity: sha512-rBMzG7WnQMouFfDST+daNSAOVYdtw560645PhlxyVeIeHMlCm0j1jjBgVPGTBNpVgKRdT/sqbi6W6JYkY9mERA==}
+  /@angular/compiler@21.0.7:
+    resolution: {integrity: sha512-Qsjx0OrOquyx10fMynkHilRRoZy9qJcstHdML7NGKg887xqHW4YvgNKREIXmKYjnV6sUBBUxJUD1L5ouarb/YA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     dependencies:
       tslib: 2.8.1
@@ -2743,12 +2743,6 @@ packages:
 
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
-    hasBin: true
-    dev: true
-
-  /semver@7.7.2:
-    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
-    engines: {node: '>=10'}
     hasBin: true
     dev: true
 
