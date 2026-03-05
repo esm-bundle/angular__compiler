@@ -15,8 +15,8 @@ devDependencies:
     specifier: 6.1.0
     version: 6.1.0(@babel/core@7.29.0)(rollup@4.59.0)
   '@rollup/plugin-terser':
-    specifier: 0.4.4
-    version: 0.4.4(rollup@4.59.0)
+    specifier: 1.0.0
+    version: 1.0.0(rollup@4.59.0)
   concurrently:
     specifier: 9.2.1
     version: 9.2.1
@@ -679,9 +679,9 @@ packages:
       - supports-color
     dev: true
 
-  /@rollup/plugin-terser@0.4.4(rollup@4.59.0):
-    resolution: {integrity: sha512-XHeJC5Bgvs8LfukDwWZp7yeqin6ns8RTl2B9avbejt6tZqsqvVoWI7ZTQrcNsfKEDWBTnTxM8nMDkO2IFFbd0A==}
-    engines: {node: '>=14.0.0'}
+  /@rollup/plugin-terser@1.0.0(rollup@4.59.0):
+    resolution: {integrity: sha512-FnCxhTBx6bMOYQrar6C8h3scPt8/JwIzw3+AJ2K++6guogH5fYaIFia+zZuhqv0eo1RN7W1Pz630SyvLbDjhtQ==}
+    engines: {node: '>=20.0.0'}
     peerDependencies:
       rollup: ^2.0.0||^3.0.0||^4.0.0
     peerDependenciesMeta:
@@ -689,7 +689,7 @@ packages:
         optional: true
     dependencies:
       rollup: 4.59.0
-      serialize-javascript: 6.0.2
+      serialize-javascript: 7.0.4
       smob: 1.5.0
       terser: 5.30.3
     dev: true
@@ -2565,12 +2565,6 @@ packages:
       side-channel: 1.0.6
     dev: true
 
-  /randombytes@2.1.0:
-    resolution: {integrity: sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==}
-    dependencies:
-      safe-buffer: 5.2.1
-    dev: true
-
   /range-parser@1.2.1:
     resolution: {integrity: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==}
     engines: {node: '>= 0.6'}
@@ -2745,10 +2739,6 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /safe-buffer@5.2.1:
-    resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
-    dev: true
-
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
@@ -2764,10 +2754,9 @@ packages:
     hasBin: true
     dev: true
 
-  /serialize-javascript@6.0.2:
-    resolution: {integrity: sha512-Saa1xPByTTq2gdeFZYLLo+RFE35NHZkAbqZeWNd3BpzppeVisAqpDjcp8dyf6uIvEqJRd46jemmyA4iFIeVk8g==}
-    dependencies:
-      randombytes: 2.1.0
+  /serialize-javascript@7.0.4:
+    resolution: {integrity: sha512-DuGdB+Po43Q5Jxwpzt1lhyFSYKryqoNjQSA9M92tyw0lyHIOur+XCalOUe0KTJpyqzT8+fQ5A0Jf7vCx/NKmIg==}
+    engines: {node: '>=20.0.0'}
     dev: true
 
   /set-function-length@1.2.2:
