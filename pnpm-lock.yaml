@@ -10,7 +10,7 @@ devDependencies:
     version: 21.2.9
   '@angular/compiler-cli':
     specifier: 21.2.9
-    version: 21.2.9(@angular/compiler@21.2.9)(typescript@6.0.2)
+    version: 21.2.9(@angular/compiler@21.2.9)(typescript@6.0.3)
   '@rollup/plugin-babel':
     specifier: 7.0.0
     version: 7.0.0(@babel/core@7.29.0)(rollup@4.60.1)
@@ -57,12 +57,12 @@ devDependencies:
     specifier: 7.8.2
     version: 7.8.2
   typescript:
-    specifier: 6.0.2
-    version: 6.0.2
+    specifier: 6.0.3
+    version: 6.0.3
 
 packages:
 
-  /@angular/compiler-cli@21.2.9(@angular/compiler@21.2.9)(typescript@6.0.2):
+  /@angular/compiler-cli@21.2.9(@angular/compiler@21.2.9)(typescript@6.0.3):
     resolution: {integrity: sha512-hTTW/OiqTXrwTneS18CMp47OX0XSbLYl2rIomLS3nXVJniSETH6S/k+LqQtGWWgLbzsd3PzUOOckHnvzpTBTsA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     hasBin: true
@@ -81,7 +81,7 @@ packages:
       reflect-metadata: 0.2.2
       semver: 7.7.4
       tslib: 2.8.1
-      typescript: 6.0.2
+      typescript: 6.0.3
       yargs: 18.0.0
     transitivePeerDependencies:
       - supports-color
@@ -2910,8 +2910,8 @@ packages:
       mime-types: 2.1.35
     dev: true
 
-  /typescript@6.0.2:
-    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
+  /typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
     hasBin: true
     dev: true
