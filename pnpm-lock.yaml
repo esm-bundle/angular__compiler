@@ -15,8 +15,8 @@ devDependencies:
     specifier: 7.1.0
     version: 7.1.0(@babel/core@7.29.7)(rollup@4.64.12)
   '@rollup/plugin-terser':
-    specifier: 1.0.0
-    version: 1.0.0(rollup@4.64.12)
+    specifier: 1.0.2
+    version: 1.0.2(rollup@4.64.12)
   concurrently:
     specifier: 10.0.6
     version: 10.0.6
@@ -799,8 +799,8 @@ packages:
       - supports-color
     dev: true
 
-  /@rollup/plugin-terser@1.0.0(rollup@4.64.12):
-    resolution: {integrity: sha512-FnCxhTBx6bMOYQrar6C8h3scPt8/JwIzw3+AJ2K++6guogH5fYaIFia+zZuhqv0eo1RN7W1Pz630SyvLbDjhtQ==}
+  /@rollup/plugin-terser@1.0.2(rollup@4.64.12):
+    resolution: {integrity: sha512-+UihHnuLnQDQ/9wog7ym+7oawCXkjTIo0WwkK7s//0mkktTN0VhYk6fGVxH+NtGzW064w5RCGgreMDxRVhHCzw==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
       rollup: ^2.0.0||^3.0.0||^4.0.0
@@ -811,7 +811,7 @@ packages:
       rollup: 4.64.12
       serialize-javascript: 7.0.4
       smob: 1.5.0
-      terser: 5.30.3
+      terser: 5.51.2
     dev: true
 
   /@rollup/pluginutils@5.1.0(rollup@4.64.12):
@@ -1257,8 +1257,8 @@ packages:
       negotiator: 0.6.3
     dev: true
 
-  /acorn@8.11.3:
-    resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
+  /acorn@8.19.0:
+    resolution: {integrity: sha512-oJlA3XiRm7Cyk6qFD2Jn8ak9B7jSy0qy00ADO3+8dpT0LSjFihQYv4C02LFCSYJV3Q37xYwwRy5m+IpIiUzqWw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
     dev: true
@@ -3165,13 +3165,13 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /terser@5.30.3:
-    resolution: {integrity: sha512-STdUgOUx8rLbMGO9IOwHLpCqolkDITFFQSMYYwKE1N2lY6MVSaeoi10z/EhWxRc6ybqoVmKSkhKYH/XUpl7vSA==}
+  /terser@5.51.2:
+    resolution: {integrity: sha512-bWnjSNscmuI+GJze6ZupnHP8G/cTcsJF+bXCeQknk2SHQsgbNJnLrqiH9jZ2W4STPVXH2mDKKRX3iwPhc9Cn/Q==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       '@jridgewell/source-map': 0.3.6
-      acorn: 8.11.3
+      acorn: 8.19.0
       commander: 2.20.3
       source-map-support: 0.5.21
     dev: true
